@@ -3,7 +3,7 @@
 Project Zomboid용 서버/월드 관리 모드입니다.
 한 청크 안에 시체가 너무 많이 쌓이면 가장 오래된 시체부터 자동으로 제거합니다.
 
-![Deadbody Auto Remover Preview](/C:/Users/mnbvc/Zomboid/Workshop/DeadbodyAutoRemover/preview.png)
+![Deadbody Auto Remover Preview](preview.png)
 
 ## 개요
 
@@ -19,7 +19,8 @@ Project Zomboid용 서버/월드 관리 모드입니다.
 모드는 시체가 생성될 때 생성 시각과 고유 식별값을 기록합니다.
 이후 각 청크의 시체 수를 관리하다가 제한을 넘으면 가장 오래된 시체를 우선 제거합니다.
 
-이미 저장된 월드를 다시 불러온 경우에도 청크를 로드하면서 기존 시체를 다시 인덱싱하고, 필요하면 즉시 정리합니다.
+이미 저장된 월드를 다시 불러와 시체들에 고유 식별값이 없는 경우에도 
+청크를 로드하면서 기존 시체를 다시 인덱싱하고, 필요하면 즉시 정리합니다.
 
 ## 샌드박스 옵션
 
@@ -42,11 +43,6 @@ Project Zomboid용 서버/월드 관리 모드입니다.
 - `Contents/mods/DeadbodyAutoRemover/42`: Build 42용 모드 파일
 - `workshop.txt`: Workshop 메타데이터
 - `preview.png`: 미리보기 이미지
-
-## 설치 및 배포 메모
-
-이 저장소는 Steam Workshop 업로드용 폴더 구조를 기준으로 되어 있습니다.
-로컬 테스트 또는 배포 시에는 `Contents` 아래 구조를 그대로 유지하는 것을 전제로 합니다.
 
 ## English Summary
 
