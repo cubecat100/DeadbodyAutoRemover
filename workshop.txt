@@ -1,0 +1,14 @@
+version=1
+id=3671369276
+title=Deadbody Auto Remover
+description=When a chunk has too many corpses, it automatically deletes the oldest corpse.
+description=default 100
+description=
+description=Removal of player corpses is optional
+description=
+description=청크에 시체가 많이 쌓이면 자동으로 가장 오래된 시체를 삭제합니다.
+description=기본값 100
+description=
+description=플레이어 시체의 제거는 옵션입니다
+tags=Build 41;Build 42
+visibility=public

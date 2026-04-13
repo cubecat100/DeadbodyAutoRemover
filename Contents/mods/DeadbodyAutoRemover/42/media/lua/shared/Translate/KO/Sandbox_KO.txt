@@ -1,0 +1,15 @@
+Sandbox_KO = {
+    Sandbox_DeadbodyAutoRemover = "Deadbody Auto Remover 설정",
+
+    Sandbox_DeadbodyAutoRemover_MaxCorpsesPerChunk = "청크당 시체 최대치",
+    Sandbox_DeadbodyAutoRemover_MaxCorpsesPerChunk_tooltip = "청크 안의 시체 수가 이 값을 넘으면 가장 오래된 시체부터 제거합니다.",
+
+    Sandbox_DeadbodyAutoRemover_MaxRemovalsPerEvent = "1회 처리 최대 제거 수",
+    Sandbox_DeadbodyAutoRemover_MaxRemovalsPerEvent_tooltip = "한 번의 이벤트에서 제거할 최대 시체 수",
+
+    Sandbox_DeadbodyAutoRemover_RemovePlayerCorpses = "플레이어 시체 제거",
+    Sandbox_DeadbodyAutoRemover_RemovePlayerCorpses_tooltip = "플레이어 시체도 자동 제거 대상에 포함합니다.",
+
+    Sandbox_DeadbodyAutoRemover_DebugEnabled = "디버그 로그 출력",
+    Sandbox_DeadbodyAutoRemover_DebugEnabled_tooltip = "콘솔 로그에 디버그 메시지를 출력합니다.",
+}

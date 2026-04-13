@@ -1,0 +1,16 @@
+Sandbox_EN = 
+{
+    Sandbox_DeadbodyAutoRemover = "Deadbody Auto Remover Options",
+
+    Sandbox_DeadbodyAutoRemover_MaxCorpsesPerChunk = "Maximum corpses per chunk",
+    Sandbox_DeadbodyAutoRemover_MaxCorpsesPerChunk_tooltip = "If the number of corpses in a chunk exceeds this value, the oldest corpse is removed first.",
+
+    Sandbox_DeadbodyAutoRemover_MaxRemovalsPerEvent = "Maximum number of removals per events",
+    Sandbox_DeadbodyAutoRemover_MaxRemovalsPerEvent_tooltip = "Maximum number of corpses to remove in one events.",
+
+    Sandbox_DeadbodyAutoRemover_RemovePlayerCorpses = "Remove player corpse",
+    Sandbox_DeadbodyAutoRemover_RemovePlayerCorpses_tooltip = "Player corpses are also included in the automatic removal target.",
+
+    Sandbox_DeadbodyAutoRemover_DebugEnabled = "Debug log output",
+    Sandbox_DeadbodyAutoRemover_DebugEnabled_tooltip = "Prints a debug message to the console log.",
+}

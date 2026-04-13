@@ -1,0 +1,9 @@
+name=DeadbodyAutoRemover
+id=DeadbodyAutoRemover
+description=
+When there are too many deadbodys, they are automatically deleted. 
+defalt 180
+
+청크에 시체가 많이 쌓이면 자동으로 가장 오래된 시체를 삭제합니다.
+기본값 180
+poster=poster.png
